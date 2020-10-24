@@ -1,8 +1,8 @@
 #PRIMARY DISPLAY = EXTENDED DISPLAY CONNECTED TO THE HDMI PORT
 #SECONDARY DISPLAY = BUILT IN DISPLAY
 
-PRIMARY_DISPLAY=$(xrandr | grep -w HDMI  | awk -F'[ \+]' '{print $1}')
-SECONDARY_DISPLAY=$(xrandr | grep -w eDP  | awk -F'[ \+]' '{print $1}')
+PRIMARY_DISPLAY=$(xrandr | grep -w HDMI  | grep -w connected | awk -F'[ \+]' '{print $1; exit}')
+SECONDARY_DISPLAY=$(xrandr | grep -w eDP  |  grep -w connected | awk -F'[ \+]' '{print $1; exit}')
 
 MODE1408=$(cvt 1408 792 60 | sed -n '2p' | awk '{gsub(/Modeline /,"")}1')
 MODE1440=$(cvt 1440 810 60 | sed -n '2p' | awk '{gsub(/Modeline /,"")}1')
