@@ -1,4 +1,4 @@
-# Ultimate ubuntu upscaller (720p to 1080p)
+# Ultimate Ubuntu Upscaller (720p to 1080p)
 
 There's only one file that you have to copy the content and inject into the profile file of your operational system. Way simple, it injects custom CVT outputs to your graphics card handler in the OS. 
 
