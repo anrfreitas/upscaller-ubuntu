@@ -13,7 +13,8 @@ It works with most distros, it means what you'll be able to use with Debian, Min
 
 ## How to use
 
-Copy the content of upscaller.sh and paste it to the end of the file ~/.profile
+- Copy the content of upscaller.sh and paste it to the end of the file ~/.profile
+- Video tutorial: https://youtu.be/KnP9q2B3N9I
 
 ## Developer
 - SharpComputing - Inovação de qualidade em portfólios para empresas
