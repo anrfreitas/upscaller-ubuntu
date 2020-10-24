@@ -19,4 +19,4 @@ Copy the content of upscaller.sh and paste it to the end of the file ~/.profile
 - SharpComputing - Inovação de qualidade em portfólios para empresas
 - Author: André Freitas
 - Released date: 24/10/2020
-- https://shc.eng.br
+- Our website: https://shc.eng.br
